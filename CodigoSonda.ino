@@ -8,8 +8,7 @@
 #define BMP_CS   (10)
 
 Adafruit_BMP280 bmp;
-//Adafruit_BMP280 bmp(BMP_CS);
-//Adafruit_BMP280 bmp(BMP_CS, BMP_MOSI, BMP_MISO,  BMP_SCK);
+
 int tiempo=0;
 void setup() {
   Serial.begin(9600);
